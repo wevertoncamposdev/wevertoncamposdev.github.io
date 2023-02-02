@@ -24972,4 +24972,11 @@ body[data-layout-color=dark] .gantt .today-highlight {
     background-position: center;
 
 }
+
+@media (max-width:990px){
+    .img-perfil-mob{
+
+        width: 50%;
+    }
+}
 /*# sourceMappingURL=app.min.css.map */
