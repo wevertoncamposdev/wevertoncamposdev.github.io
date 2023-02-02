@@ -24965,4 +24965,11 @@ body[data-layout-color=dark] .gantt .today-highlight {
     fill: #464f5b
 }
 
+.bg-img{
+    background-image: url("/assets/images/bg-pattern-light.svg");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+
+}
 /*# sourceMappingURL=app.min.css.map */
