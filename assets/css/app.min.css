@@ -207,7 +207,9 @@
     --ct-chat-secondary-user-bg: #f1f3fa;
     --ct-auth-bg: #fff;
     --ct-apex-grid-color: #f9f9fd;
-    --ct-hero-bg: linear-gradient(to bottom, #8669ed, #727cf5)
+    --ct-hero-bg: linear-gradient(to bottom, #8669ed, #727cf5);
+    --ct-secondy-bg: linear-gradient(to bottom, #69a7ed, #727cf5);
+    --ct-third-bg: linear-gradient(to bottom, #8b70ec, #4b72e0);
 }
 
 body[data-leftbar-theme=dark] {
@@ -19819,6 +19821,52 @@ body[data-layout-color=dark] #preloader {
     border-radius: 0;
     -webkit-transform: skewY(-3deg);
     transform: skewY(-3deg)
+}
+
+.secondy-section .secondy-title {
+    line-height: 42px
+}
+
+.secondy-section {
+    position: relative;
+    padding: 80px 0 120px 0
+}
+
+.secondy-section:after {
+    content: " ";
+    background-image: var(--ct-secondy-bg);
+    position: absolute;
+    top: -50px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    border-radius: 0;
+    -webkit-transform: skewY(3deg);
+    transform: skewY(3deg)
+}
+
+.third-section .third-title {
+    line-height: 42px
+}
+
+.third-section {
+    position: relative;
+    padding: 80px 0 120px 0
+}
+
+.third-section:after {
+    content: " ";
+    background-image: var(--ct-third-bg);
+    position: absolute;
+    top: -50px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    border-radius: 0;
+    -webkit-transform: skewY(-1deg);
+    transform: skewY(-1deg)
 }
 
 .hero-section .hero-title {
