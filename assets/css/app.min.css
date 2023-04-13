@@ -19806,7 +19806,7 @@ body[data-layout-color=dark] #preloader {
 
 .hero-section {
     position: relative;
-    padding: 80px 0 120px 0
+    padding: 80px 0px 120px 0px
 }
 
 .hero-section:after {
@@ -19814,8 +19814,9 @@ body[data-layout-color=dark] #preloader {
     background-image: var(--ct-hero-bg);
     position: absolute;
     top: -400px;
-    right: 0;
-    bottom: 0;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
     z-index: -1;
     width: 100%;
     border-radius: 0;
